@@ -255,6 +255,7 @@ def decide_extra(spec):
 
 
 def parse_requires_dist(requires_dist):
+    requires_dist = requires_dist.replace("(>=2.2.0<2.4.0)", "(>=2.2.0,<2.4.0)")
     spec = parser.parse(requires_dist)
     ret = Dependency(spec[0], decide_version(spec), decide_extra(spec))
     return ret
