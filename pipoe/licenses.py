@@ -112,6 +112,7 @@ LICENSES = {
     "GPL-3.0-with-GCC-exception": "GPL-3.0-with-GCC-exception",
     "GPL-3.0-with-autoconf-exception": "GPL-3.0-with-autoconf-exception",
     "GPLv3+": "GPLv3",
+    "GPL3": "GPLv3",
     "HPND": "HPND",
     "IPA": "IPA",
     "IPL-1.0": "IPL-1.0",
